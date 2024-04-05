@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@100..900&family=Lexend+Deca&display=swap');
+body {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    background-color: #0d021d;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #9E78CF;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3E1671;
+    border-radius: 10px;
+    background-color: #0d021d;
+    color: #9E78CF;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #15101C;
+    color: #9E78CF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3E1671;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-radius: 10px;
+    color: #9E78CF;
+    margin-bottom: 15px;
+    background-color: #15101ca1;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #78CFB0;
+}
